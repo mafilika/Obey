@@ -122,3 +122,66 @@ footer p {
   margin-bottom: 8px;
   font-size: 0.95rem;
 }
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f8;
+  color: #1f2933;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #0f4c5c, #1f2933);
+  color: white;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* NAVIGATION */
+nav {
+  background: #1f2933;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover,
+nav a.active {
+  color: #e63946;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #1f2933;
+  color: white;
+  padding: 25px 15px;
+  text-align: center;
+  }
