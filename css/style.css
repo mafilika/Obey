@@ -117,3 +117,8 @@ nav a {
 .contact-form button:hover {
   background: #c72f3a;
   }
+
+footer p {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
