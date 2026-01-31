@@ -169,9 +169,12 @@ nav a {
   text-align: center;
 }
 
-.contact-form textarea {
-  min-height: 120px;
-}
+form input, form textarea {
+  width:100%;
+  padding:10px;
+  margin-bottom:10px;
+  border:4px solid #999;
+  }
 
 .contact-form button {
   background: #e63946;
