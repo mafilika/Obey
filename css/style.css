@@ -27,7 +27,7 @@ nav a {
 .hero {
   height: 90vh;
   background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-              url("../images/hero.jpg");  /* replace with your real image */
+              url("https://images.ctfassets.net/09muo917z9ra/3T0kni9tUWoVcVUmXEOFKD/1adda1d8bf8fd2ba0b3f8ba502888787/file_0000000038ec71f792397329984e884e.png");  /* replace with your real image */
 
   background-size: cover;
   background-position: center;
