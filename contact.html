@@ -48,17 +48,24 @@
     <p><strong>Email:</strong> obeywellaz1998@gmail.com</p>
   </div>
 
-  <div class="contact-box">
-    <h2>Request a Free Quote</h2>
+  <section class="section">
+    <h2 class="section-title">Reach Out to Us</h2>
+    <div style="max-width:700px; margin:auto; padding:0 20px;">
+        <form action="https://formspree.io/f/maykvkzv" method="POST" class="contact-form">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="Your Full Name" required>
 
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="tel" placeholder="Phone Number" required>
-      <input type="email" placeholder="Email Address">
-      <textarea placeholder="Describe your project"></textarea>
-      <button type="submit">Send Request</button>
-    </form>
-  </div>
+            <label for="email">Email</label>
+            <input type="email" name="_replyto" id="email" placeholder="your@email.com" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone" id="phone" placeholder="+27 72 000 0000" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="6" placeholder="Tell us about your project..." required></textarea>
+
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
 
   </section>
 
